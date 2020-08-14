@@ -98,7 +98,7 @@ require (
 	// version number of the tool. We want the version number to match up with
 	// the fork, even though this specific version doesn't exist in upstream
 	// controller-tools.
-	sigs.k8s.io/controller-tools v0.3.1-0.20200716001835-4a903ddb7005
+	sigs.k8s.io/controller-tools v0.3.1-0.20200814033407-d944debcff34
 	sigs.k8s.io/yaml v1.2.0
 )
 
@@ -109,5 +109,5 @@ replace (
 
 	// Using private fork of controller-tools. See commit msg for more context
 	// as to why we are using a private fork.
-	sigs.k8s.io/controller-tools => github.com/christarazi/controller-tools v0.3.1-0.20200803222741-1b051103a137
+	sigs.k8s.io/controller-tools => github.com/christarazi/controller-tools v0.3.1-0.20200814033407-d944debcff34
 )
